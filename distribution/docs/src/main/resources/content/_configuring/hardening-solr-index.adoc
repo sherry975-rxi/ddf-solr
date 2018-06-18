@@ -10,7 +10,7 @@
 The following sections provide hardening guidance for Solr; however, they are to serve only as reference and other an additional security requirements may be added. These instructions are relevant only
 to the <<_external_solr, externally managed Solr configuration>>.
 
-=== Harding an Internally Managed Solr Server
+=== Hardening an Internally Managed Solr Server
 
 The internally managed Solr configuration is configured to be secure by default. No additional
 hardening should be necessary.

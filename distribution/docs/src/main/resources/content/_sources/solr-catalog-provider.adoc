@@ -31,7 +31,7 @@ stopping the Solr server.
 No installation is required because ${branding} includes a distribution of Apache Solr.
 
 .Configuring Internally Managed Solr
-Although the default settings should be sufficient for most purposes, some options that
+Although the default settings should be sufficient for most purposes, some options
 can be configured for an internally managed Solr.
 
 .Enabling Remote Requests
@@ -56,8 +56,8 @@ To enable TLS:
 . Restart ${branding}
 
 .Require Two-way (Client) Authentication
-This option is only meaningful is Solr and ${branding} communicate via the HTTPS protocol.
-There default configuration is secure and requires client authentication
+This option is only meaningful if Solr and ${branding} communicate via the HTTPS protocol.
+The default configuration is secure and requires client authentication
 if the HTTPS protocol is used.
 
 Two-way authentication means the server (Solr) must trust the client (${branding}). If Solr
@@ -102,19 +102,9 @@ https://cwiki.apache.org/confluence/display/solr/Apache+Solr+Reference+Guide[Apa
 .. Change the property `solr.http.port` to the port used by the Solr server
 .. Change the property `solr.http.url` to the URL used by the Solr server. Remember to use
 `${solr.http.port}` to specify the port,
-<<<<<<< Updated upstream
-.. Change the property `solr.managed.internally` to *false*, or remove the property entirely
-=======
 .. Change the property `solr.managed` to *false*, or remove the property entirely.
->>>>>>> Stashed changes
 . Two additional JAR files need to be added to the Solr installation as described in
  <<Installing Solr Cloud,Installing Solr Cloud>>
-
-.Installing Internally Managed Solr
-No installation is required because ${branding} includes a distribution of Apache Solr.
-
-.Configuring Internally Managed Solr
-Although the default settings should be sufficient for most purposes, there are three options that
 
 .Externally Managed Solr Server System Properties (example values)
 ----
