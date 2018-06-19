@@ -35,7 +35,7 @@ get_property() {
 
 
 # Extract values from Java properties file and construct Solr URL
-MANAGE_SOLR=$(get_property solr.managed.internally)
+MANAGE_SOLR=$(get_property solr.managed)
 SOLR_PORT=$(get_property solr.http.port)
 TEMPLATE=$(get_property solr.http.url)
 PARTIAL_URL="$(echo $TEMPLATE | sed -e 's/\${solr.http.port}/PORT_PLACEHOLDER/')"
