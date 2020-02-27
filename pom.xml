@@ -2,17 +2,5 @@
   <sonar.projectKey>sherry975-rxi_ddf-solr</sonar.projectKey>
   <sonar.organization>sherry975-rxi</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>d93fb0faaa391c80c3cd80e9bd7eb4c849c85c25</sonar.login>
+  <sonar.login>f67e5fadf922b06058e2ef624d12d3cbe793bb76</sonar.login>
 </properties>
-
-<build>
-    <pluginManagement>
-        <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.4.0.905</version>
-            </plugin>
-        </plugins>
-    </pluginManagement>
-</build>
