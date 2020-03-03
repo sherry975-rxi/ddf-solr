@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "ace": "*",
-    "bootstrap-sass": "3.3.6",
+    "bootstrap-sass": "3.4.1",
     "bootswatch": "3.3.7",
     "compass-mixins": "0.12.10",
     "cpr": "3.0.1",
