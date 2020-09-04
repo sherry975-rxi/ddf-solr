@@ -22,7 +22,7 @@
     "cpr": "3.0.1",
     "lerna": "2.8.0",
     "mkdirp": "0.5.1",
-    "node-sass": "4.7.2",
+    "node-sass": "4.13.1",
     "rimraf": "2.6.2",
     "sass-lint": "1.12.1"
   },
